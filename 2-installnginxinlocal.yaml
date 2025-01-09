@@ -1,5 +1,5 @@
 - name: nginx
-  host: local
+  hosts: local
   connection: local
   become: yes
   tasks:
