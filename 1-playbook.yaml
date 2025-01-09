@@ -1,5 +1,7 @@
-- name: PING
-  hosts: nodes
+name: PING
+  hosts: local
+  connection: local
   tasks: 
   - name: ping the server
     ansible.builtin.ping:
+    msg "Hello World"
